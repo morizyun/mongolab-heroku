@@ -81,4 +81,8 @@ test:
 production:
   sessions:
     default:
-      uri: <%= ENV['MONGOLAB_URI'] %>
+      host: ds043457.mongolab.com
+      port: 43457
+      username: root
+      password: nakata10
+      database: heroku_app9507165
