@@ -67,7 +67,7 @@
       <file leaf-file-name="mongoid.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/mongoid.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="12" selection-start="2895" selection-end="2895" vertical-scroll-proportion="0.80652964">
+            <state line="80" column="0" selection-start="2812" selection-end="2886" vertical-scroll-proportion="0.88391775">
               <folding />
             </state>
           </provider>
@@ -701,7 +701,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/mongoid.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="12" selection-start="2895" selection-end="2895" vertical-scroll-proportion="0.80652964">
+        <state line="80" column="0" selection-start="2812" selection-end="2886" vertical-scroll-proportion="0.88391775">
           <folding />
         </state>
       </provider>
