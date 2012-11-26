@@ -1,4 +1,4 @@
 MongolabHeroku::Application.routes.draw do
-  root :to => "products#index"
+  root :to => "articles#index"
   resources :articles
 end
