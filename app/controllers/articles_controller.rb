@@ -1,3 +1,4 @@
+require 'mongo'
 class ArticlesController < ApplicationController
   # GET /articles
   # GET /articles.json
