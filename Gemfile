@@ -1,75 +1,50 @@
 source 'https://rubygems.org'
-ruby "1.9.3"
 
-gem 'rails'
+ruby '2.1.0'
 
-# Bootstrap
-gem 'less-rails'
-gem 'less-rails-bootstrap'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '4.0.2'
 
-# Form Builders
-gem 'simple_form'
-gem 'country_select'
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 4.0.0'
 
-# Haml
-gem 'haml-rails'
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
 
-# jQuery/json
+# Use CoffeeScript for .js.coffee assets and views
+gem 'coffee-rails', '~> 4.0.0'
+
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
+
+# Use jquery as the JavaScript library
 gem 'jquery-rails'
-gem 'jquery-cookie-rails' # jquery-cookie
-gem 'json'
 
-# Presenter
-gem 'draper'
+# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+gem 'turbolinks'
 
-# Thin
-gem 'thin'
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jbuilder', '~> 1.2'
 
-group :assets do
-  gem 'coffee-rails'
-  gem 'therubyracer'
-  gem 'uglifier'
+group :doc do
+  # bundle exec rake doc:rails generates the API under doc/api.
+  gem 'sdoc', require: false
 end
 
-group :development do
-  # 環境変数をロードして複数のプロセスを実行する作業を自動化
-  gem 'foreman'
+# Use ActiveModel has_secure_password
+# gem 'bcrypt-ruby', '~> 3.1.2'
 
-  # viewやcssの変更を監視してブラウザを自動的にリロードする
-  gem 'guard-livereload'
-  gem 'em-websocket'
+# Use unicorn as the app server
+# gem 'unicorn'
 
-  # デバッガー
-  gem 'pry-rails'
-end
+# Use Capistrano for deployment
+# gem 'capistrano', group: :development
 
-group :development, :test do
-  # Rspec
-  gem 'rspec-rails'
-
-  # FactoryGirl
-  gem 'factory_girl_rails'
-
-  # 設定をロードしたサーバーによってテストを高速化
-  gem 'spork'
-
-  # ファイルの変更を検知する。OSX用
-  gem 'rb-fsevent'
-
-  # テスト結果をGrowlで通知する
-  gem 'growl'
-
-  # ファイルの変更を監視してテストを自動化
-  gem 'guard-rspec'
-
-  # 設定ファイルの変更を監視してテストサーバーを再起動
-  gem 'guard-spork'
-
-  gem 'rails3-generators', :git => 'https://github.com/neocoin/rails3-generators.git'
-end
+# Use debugger
+# gem 'debugger', group: [:development, :test]
 
 # Mongoid
-gem 'mongoid'
+gem 'mongoid', '4.0.0.alpha1'
 gem 'bson_ext'
 gem 'origin'
 gem 'moped'
